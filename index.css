@@ -6,7 +6,7 @@
 }
 body {
   font-family: 'Raleway', sans-serif;
-  background: #f9faff;
+  background: #d8d9de;
   color: #111;
   line-height: 1.6;
 }
@@ -379,7 +379,34 @@ body {
   border-color: #e9e9ec;
 }
 
+/* footer */
+.footer {
+      background-color: white;
+      padding: 80px 120px ;
+      text-align: center;
+    }
+    .footer-box {
+      margin-top: 20px;
+    }
+    .footer-box a {
+      margin: 20px 20px;
+      color: #666;
+      text-decoration: none;
+    }
 
+    .footer p{
+        color: #666;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .footer-logo {
+    text-decoration: none;
+    font-size: 100px;
+    color: rgb(78,71,255);
+    font-weight: 900;
+    
+    }
 
 /* Utility */
 .custom-padding {
