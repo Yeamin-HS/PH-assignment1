@@ -141,15 +141,44 @@ body {
 
 /* Stats */
 .stats-section {
-  background: rgba(78, 71, 255, 0.1);
+  background-color: rgba(78, 71, 255, 0.1);
   padding: 100px 50px;
   text-align: center;
   border-radius: 25px;
   margin: 10px 120px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
+
+.stats-heading {
+  margin-bottom: 30px;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.stats-values {
+  display: flex;
+  justify-content: center;
+  color: #4E47FF;
+  font-size: 80px;
+  font-weight: bold;
+  margin: 10px 80px;
+  padding: 0;
+  list-style: none;
+  gap: 200px;
+}
+
+.stats-labels {
+  color: #000000;
+  opacity: 0.5;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 10px 80px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
 .stats {
   display: flex;
   justify-content: space-between;
@@ -202,8 +231,9 @@ body {
 }
 .reviewer {
   display: flex;
-  gap: 10px;
+  gap: 50px;
   align-items: center;
+  width: 100;
 }
 
 /* Utility */
