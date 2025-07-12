@@ -110,16 +110,17 @@ body {
 }
 
 .btn-secondary {
-    background-color: #0a30ee;
+    background-color: #2a4bef;
     color: #e2e2f0;
   
     height: 48px;
     width: 200px;
     font-size: 15px;
+    font-family: 'Raleway', sans-serif;
     border-radius: 10px;
     border-style: none;
     font-weight: bold;
-    transition: all 0.4s;
+    transition: background-color 0.3s ease;
     cursor: pointer;
 }
 .btn-secondary:hover {
@@ -127,6 +128,33 @@ body {
   transform: scale(1.1);
   color: black;
 }
+.btn-tertiary {
+    background-color: #1336e5;
+    color: #e2e2f0;
+  
+    height: 48px;
+  
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.btn-tertiary:hover {
+  background-color: #4e1be9;
+  transform: scale(1.1);
+  color: black;
+}
+
+
+
+
+
+
+
+
 
 .custom-text {
     font-size: 40px;
@@ -276,7 +304,80 @@ body {
   font-weight: 400;
   color: #dbdbdb;
 }
+/* CTA Section */
+.cta-box {
+  text-align: center;
+  padding: 80px 20px;
+}
 
+.cta-heading {
+  margin: 80px 0 30px 0;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.cta-subtext {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+
+.cta-image {
+  border-radius: 50px;
+  margin-bottom: 80px;
+  max-width: 100%;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px 20px;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.contact-heading {
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  flex: 1 1 40%;
+}
+
+.contact-form {
+  flex: 1 1 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-input,
+.form-textarea {
+  padding: 15px 40px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-textarea {
+  height: 150px;
+  resize: none;
+  font-family: Arial, Helvetica, sans-serif
+}
+.form-input,.form-label,.form-textarea :hover {
+  border-color: #e9e9ec;
+}
 
 
 
